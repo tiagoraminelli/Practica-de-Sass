@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import '/sass/partials/media';
+@import '/sass/partials/variables';
+@import '/sass/partials/main';
+
+// Aquí puedes agregar más estilos si es necesario.
+
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: var(--clr-main);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+    box-shadow: var(--box-shadow);
+}
+
+// Otros estilos principales...
